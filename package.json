@@ -1,19 +1,39 @@
 {
-  "name": "map-react-project",
-  "version": "1.0.0",
-  "description": "Mapa ArGis con react",
-  "main": "src/App.js",
+  "name": "mapa-argis-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@arcgis/core": "^4.26.5",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
   "scripts": {
-    "test": "npm build"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dmunoz05/map-react-project.git"
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
-  "author": "Daniel Muñoz",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/dmunoz05/map-react-project/issues"
-  },
-  "homepage": "https://github.com/dmunoz05/map-react-project#readme"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
