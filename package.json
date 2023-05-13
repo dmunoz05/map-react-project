@@ -1,0 +1,19 @@
+{
+  "name": "map-react-project",
+  "version": "1.0.0",
+  "description": "Mapa ArGis con react",
+  "main": "src/App.js",
+  "scripts": {
+    "test": "npm build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmunoz05/map-react-project.git"
+  },
+  "author": "Daniel Muñoz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dmunoz05/map-react-project/issues"
+  },
+  "homepage": "https://github.com/dmunoz05/map-react-project#readme"
+}

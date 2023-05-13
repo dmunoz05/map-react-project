@@ -1,0 +1,8 @@
+@import url("https://js.arcgis.com/4.22/esri/themes/light/main.css");
+
+body, html, div#root{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
